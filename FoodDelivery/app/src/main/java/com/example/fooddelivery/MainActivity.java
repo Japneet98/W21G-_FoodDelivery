@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
                 Intent myIntent = new Intent(MainActivity.this, Restaurants.class);
                 startActivity(myIntent); //start activity with this intent -> start recipe activity
                 //at this point control has gone to recipe activity object
+
+                //This comment is just a test
             }
         });
 
