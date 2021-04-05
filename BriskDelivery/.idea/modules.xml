@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BriskDelivery.iml" filepath="$PROJECT_DIR$/.idea/modules/BriskDelivery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BriskDelivery.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BriskDelivery.app.iml" />
+    </modules>
+  </component>
+</project>

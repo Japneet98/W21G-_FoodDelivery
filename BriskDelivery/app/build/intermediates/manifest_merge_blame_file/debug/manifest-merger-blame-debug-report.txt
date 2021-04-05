@@ -1,0 +1,212 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.briskdelivery"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:9:5-79
+14-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:9:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\89e47d5bcb2b4d8bbf4abd4279d41e1c\jetified-play-services-maps-16.0.0\AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\89e47d5bcb2b4d8bbf4abd4279d41e1c\jetified-play-services-maps-16.0.0\AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\89e47d5bcb2b4d8bbf4abd4279d41e1c\jetified-play-services-maps-16.0.0\AndroidManifest.xml:28:9-32
+19
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->[io.card:android-sdk:5.5.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1f1045e65cd3f65c4e160234f689376f\jetified-android-sdk-5.5.0\AndroidManifest.xml:9:5-65
+20-->[io.card:android-sdk:5.5.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1f1045e65cd3f65c4e160234f689376f\jetified-android-sdk-5.5.0\AndroidManifest.xml:9:22-62
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->[io.card:android-sdk:5.5.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1f1045e65cd3f65c4e160234f689376f\jetified-android-sdk-5.5.0\AndroidManifest.xml:10:5-66
+21-->[io.card:android-sdk:5.5.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1f1045e65cd3f65c4e160234f689376f\jetified-android-sdk-5.5.0\AndroidManifest.xml:10:22-63
+22
+23    <uses-feature
+23-->[io.card:android-sdk:5.5.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1f1045e65cd3f65c4e160234f689376f\jetified-android-sdk-5.5.0\AndroidManifest.xml:12:5-14:36
+24        android:name="android.hardware.camera"
+24-->[io.card:android-sdk:5.5.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1f1045e65cd3f65c4e160234f689376f\jetified-android-sdk-5.5.0\AndroidManifest.xml:13:9-47
+25        android:required="false" />
+25-->[io.card:android-sdk:5.5.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1f1045e65cd3f65c4e160234f689376f\jetified-android-sdk-5.5.0\AndroidManifest.xml:14:9-33
+26    <uses-feature
+26-->[io.card:android-sdk:5.5.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1f1045e65cd3f65c4e160234f689376f\jetified-android-sdk-5.5.0\AndroidManifest.xml:15:5-17:36
+27        android:name="android.hardware.camera.autofocus"
+27-->[io.card:android-sdk:5.5.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1f1045e65cd3f65c4e160234f689376f\jetified-android-sdk-5.5.0\AndroidManifest.xml:16:9-57
+28        android:required="false" />
+28-->[io.card:android-sdk:5.5.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1f1045e65cd3f65c4e160234f689376f\jetified-android-sdk-5.5.0\AndroidManifest.xml:17:9-33
+29
+30    <application
+30-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:9:5-40:19
+31        android:allowBackup="true"
+31-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:10:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.3.1] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\b234a824af7fd98a5c54fc0522824a91\core-1.3.1\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:11:9-43
+35        android:label="@string/app_name"
+35-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:12:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:13:9-54
+37        android:supportsRtl="true"
+37-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:14:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.BriskDelivery" >
+39-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:15:9-51
+40        <activity android:name="com.example.briskdelivery.Buttons" />
+40-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:16:9-54
+40-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:16:19-42
+41
+42        <meta-data
+42-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:18:9-20:47
+43            android:name="com.google.android.geo.API_KEY"
+43-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:19:13-58
+44            android:value="@string/map_key" />
+44-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:20:13-44
+45
+46        <activity android:name="com.example.briskdelivery.MapsActivity" />
+46-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:22:9-50
+46-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:22:19-47
+47        <activity
+47-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:23:9-26:70
+48            android:name="com.example.briskdelivery.PaymentDetails"
+48-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:24:13-43
+49            android:label="@string/title_activity_payment_details"
+49-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:25:13-67
+50            android:theme="@style/Theme.BriskDelivery.NoActionBar" />
+50-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:26:13-67
+51        <activity android:name="com.example.briskdelivery.History" />
+51-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:27:9-45
+51-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:27:19-42
+52        <activity android:name="com.example.briskdelivery.Checkout" />
+52-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:28:9-46
+52-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:28:19-43
+53        <activity android:name="com.example.briskdelivery.MenuDish" />
+53-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:29:9-46
+53-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:29:19-43
+54        <activity android:name="com.example.briskdelivery.Menu" />
+54-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:30:9-42
+54-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:30:19-39
+55        <activity android:name="com.example.briskdelivery.RestaurantList" />
+55-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:31:9-52
+55-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:31:19-49
+56        <activity android:name="com.example.briskdelivery.ProfileActivity" />
+56-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:32:9-53
+56-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:32:19-50
+57        <activity android:name="com.example.briskdelivery.MainActivity" >
+57-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:33:9-39:20
+57-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:33:19-47
+58            <intent-filter>
+58-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:34:13-38:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:35:17-69
+59-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:35:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:37:17-77
+61-->C:\androiddemo\BriskDelivery\app\src\main\AndroidManifest.xml:37:27-74
+62            </intent-filter>
+63        </activity>
+64        <activity
+64-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+65            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+65-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+66            android:excludeFromRecents="true"
+66-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+69        <!--
+70            Service handling Google Sign-In user revocation. For apps that do not integrate with
+71            Google Sign-In, this service will never be started.
+72        -->
+73        <service
+73-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+74            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+74-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+75            android:exported="true"
+75-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+76            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+76-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+77            android:visibleToInstantApps="true" />
+77-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+78
+79        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+79-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:13:9-84
+79-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:13:19-81
+80        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+80-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:14:9-90
+80-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:14:19-87
+81        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+81-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:15:9-91
+81-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:15:19-88
+82        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+82-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:16:9-82
+82-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:16:19-79
+83        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+83-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:17:9-96
+83-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:17:19-93
+84        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+84-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:18:9-97
+84-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:18:19-94
+85        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+85-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:19:9-94
+85-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:19:19-91
+86        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+86-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:20:9-97
+86-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:20:19-94
+87        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+87-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:21:9-98
+87-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:21:19-95
+88
+89        <service
+89-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:23:9-25:40
+90            android:name="com.paypal.android.sdk.payments.PayPalService"
+90-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:24:13-73
+91            android:exported="false" />
+91-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1a422d8bee0f300940492ce0c54ec6ec\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:25:13-37
+92
+93        <activity
+93-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1ba2f28cbc7d2590c038e3ffb31f9f7a\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+94            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+94-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1ba2f28cbc7d2590c038e3ffb31f9f7a\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+95            android:exported="false"
+95-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1ba2f28cbc7d2590c038e3ffb31f9f7a\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+96-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1ba2f28cbc7d2590c038e3ffb31f9f7a\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+97
+98        <meta-data
+98-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\0fab4de84d54b001567e7ac89c918419\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+99            android:name="com.google.android.gms.version"
+99-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\0fab4de84d54b001567e7ac89c918419\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+100            android:value="@integer/google_play_services_version" />
+100-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\0fab4de84d54b001567e7ac89c918419\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+101
+102        <activity
+102-->[io.card:android-sdk:5.5.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1f1045e65cd3f65c4e160234f689376f\jetified-android-sdk-5.5.0\AndroidManifest.xml:20:9-22:66
+103            android:name="io.card.payment.CardIOActivity"
+103-->[io.card:android-sdk:5.5.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1f1045e65cd3f65c4e160234f689376f\jetified-android-sdk-5.5.0\AndroidManifest.xml:21:13-58
+104            android:configChanges="keyboardHidden|orientation" />
+104-->[io.card:android-sdk:5.5.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1f1045e65cd3f65c4e160234f689376f\jetified-android-sdk-5.5.0\AndroidManifest.xml:22:13-63
+105        <activity android:name="io.card.payment.DataEntryActivity" />
+105-->[io.card:android-sdk:5.5.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1f1045e65cd3f65c4e160234f689376f\jetified-android-sdk-5.5.0\AndroidManifest.xml:23:9-70
+105-->[io.card:android-sdk:5.5.0] C:\Users\rrsha\.gradle\caches\transforms-2\files-2.1\1f1045e65cd3f65c4e160234f689376f\jetified-android-sdk-5.5.0\AndroidManifest.xml:23:19-67
+106    </application>
+107
+108</manifest>
